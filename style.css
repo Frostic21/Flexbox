@@ -1,0 +1,15 @@
+.child{
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    width: 50px;
+    flex-grow:1;
+}
+.parent{
+    border: 2px solid red;
+    display: flex;
+    height:200px;
+}
+.two{
+    flex-grow: 2;
+    align-self: end;
+ }
